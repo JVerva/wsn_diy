@@ -3,10 +3,10 @@
 
 #include <stdio.h> /* For printf() */
 /*---------------------------------------------------------------------------*/
-PROCESS(hello_world_process, "Hello world process");
-AUTOSTART_PROCESSES(&hello_world_process);
+PROCESS(counter_process, "Counter process");
+AUTOSTART_PROCESSES(&counter_process);
 /*---------------------------------------------------------------------------*/
-PROCESS_THREAD(hello_world_process, ev, data)
+PROCESS_THREAD(counter_process, ev, data)
 {
   static struct etimer timer;
   static int i = 0;

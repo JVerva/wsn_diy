@@ -3,10 +3,10 @@
 
 #include <stdio.h> /* For printf() */
 /*---------------------------------------------------------------------------*/
-PROCESS(hello_world_process, "Hello world process");
-AUTOSTART_PROCESSES(&hello_world_process);
+PROCESS(light_button_process, "Light button process");
+AUTOSTART_PROCESSES(&light_button_process);
 /*---------------------------------------------------------------------------*/
-PROCESS_THREAD(hello_world_process, ev, data)
+PROCESS_THREAD(light_button_process, ev, data)
 {
   static int state = 0;
   static int val = 0;

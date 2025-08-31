@@ -4,10 +4,10 @@
 
 #include <stdio.h> /* For printf() */
 /*---------------------------------------------------------------------------*/
-PROCESS(hello_world_process, "Hello world process");
-AUTOSTART_PROCESSES(&hello_world_process);
+PROCESS(color_switcher_process, "Color switcher process");
+AUTOSTART_PROCESSES(&color_switcher_process);
 /*---------------------------------------------------------------------------*/
-PROCESS_THREAD(hello_world_process, ev, data)
+PROCESS_THREAD(color_switcher_process, ev, data)
 {
   static int counter = 0;
 

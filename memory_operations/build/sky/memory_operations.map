@@ -1821,7 +1821,7 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
 .rela.plt
  *(SORT(.rela.plt))
 
-.text           0x00004000     0xa252
+.text           0x00004000     0xa270
                 0x00004000                . = ALIGN (0x2)
  *(SORT(.init) SORT(.init.*))
  *(SORT(.init0))
@@ -2195,910 +2195,910 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
                 0x00006810       0x26 build/sky/obj/memb.o
                 0x00006810                memb_numfree
  .text.print_int2_memb_contents
-                0x00006836       0x56 build/sky/obj/memory_operations.o
+                0x00006836       0x58 build/sky/obj/memory_operations.o
  .text.process_thread_memory_operations_process
-                0x0000688c       0x98 build/sky/obj/memory_operations.o
+                0x0000688e       0xb4 build/sky/obj/memory_operations.o
  .text.msp430_init_dco
-                0x00006924       0x82 build/sky/obj/msp430.o
-                0x00006924                msp430_init_dco
+                0x00006942       0x82 build/sky/obj/msp430.o
+                0x00006942                msp430_init_dco
  .text.msp430_add_lpm_req
-                0x000069a6        0xc build/sky/obj/msp430.o
-                0x000069a6                msp430_add_lpm_req
+                0x000069c4        0xc build/sky/obj/msp430.o
+                0x000069c4                msp430_add_lpm_req
  .text.msp430_cpu_init
-                0x000069b2       0x2a build/sky/obj/msp430.o
-                0x000069b2                msp430_cpu_init
+                0x000069d0       0x2a build/sky/obj/msp430.o
+                0x000069d0                msp430_cpu_init
  .text.splhigh_
-                0x000069dc        0xa build/sky/obj/msp430.o
-                0x000069dc                splhigh_
+                0x000069fa        0xa build/sky/obj/msp430.o
+                0x000069fa                splhigh_
  .text.msp430_sync_dco
-                0x000069e6       0x6c build/sky/obj/msp430.o
-                0x000069e6                msp430_sync_dco
+                0x00006a04       0x6c build/sky/obj/msp430.o
+                0x00006a04                msp430_sync_dco
  .text.item_from_index
-                0x00006a52       0x2a build/sky/obj/nbr-table.o
+                0x00006a70       0x2a build/sky/obj/nbr-table.o
  .text.index_from_key
-                0x00006a7c       0x26 build/sky/obj/nbr-table.o
+                0x00006a9a       0x26 build/sky/obj/nbr-table.o
  .text.index_from_item
-                0x00006aa2       0x1e build/sky/obj/nbr-table.o
+                0x00006ac0       0x1e build/sky/obj/nbr-table.o
  .text.nbr_set_bit
-                0x00006ac0       0x54 build/sky/obj/nbr-table.o
+                0x00006ade       0x54 build/sky/obj/nbr-table.o
  .text.index_from_lladdr
-                0x00006b14       0x38 build/sky/obj/nbr-table.o
+                0x00006b32       0x38 build/sky/obj/nbr-table.o
  .text.nbr_get_bit.constprop.3
-                0x00006b4c       0x2a build/sky/obj/nbr-table.o
+                0x00006b6a       0x2a build/sky/obj/nbr-table.o
  .text.remove_key
-                0x00006b76       0x84 build/sky/obj/nbr-table.o
+                0x00006b94       0x84 build/sky/obj/nbr-table.o
  .text.nbr_table_is_registered
-                0x00006bfa       0x22 build/sky/obj/nbr-table.o
-                0x00006bfa                nbr_table_is_registered
+                0x00006c18       0x22 build/sky/obj/nbr-table.o
+                0x00006c18                nbr_table_is_registered
  .text.nbr_table_register
-                0x00006c1c       0x40 build/sky/obj/nbr-table.o
-                0x00006c1c                nbr_table_register
+                0x00006c3a       0x40 build/sky/obj/nbr-table.o
+                0x00006c3a                nbr_table_register
  .text.nbr_table_next
-                0x00006c5c       0x5a build/sky/obj/nbr-table.o
-                0x00006c5c                nbr_table_next
+                0x00006c7a       0x5a build/sky/obj/nbr-table.o
+                0x00006c7a                nbr_table_next
  .text.nbr_table_head
-                0x00006cb6       0x36 build/sky/obj/nbr-table.o
-                0x00006cb6                nbr_table_head
+                0x00006cd4       0x36 build/sky/obj/nbr-table.o
+                0x00006cd4                nbr_table_head
  .text.nbr_table_get_from_lladdr
-                0x00006cec       0x2c build/sky/obj/nbr-table.o
-                0x00006cec                nbr_table_get_from_lladdr
+                0x00006d0a       0x2c build/sky/obj/nbr-table.o
+                0x00006d0a                nbr_table_get_from_lladdr
  .text.entry_is_allowed.isra.2
-                0x00006d18       0x74 build/sky/obj/nbr-table.o
+                0x00006d36       0x74 build/sky/obj/nbr-table.o
  .text.nbr_table_add_lladdr
-                0x00006d8c       0xc2 build/sky/obj/nbr-table.o
-                0x00006d8c                nbr_table_add_lladdr
+                0x00006daa       0xc2 build/sky/obj/nbr-table.o
+                0x00006daa                nbr_table_add_lladdr
  .text.nbr_table_remove
-                0x00006e4e       0x32 build/sky/obj/nbr-table.o
-                0x00006e4e                nbr_table_remove
+                0x00006e6c       0x32 build/sky/obj/nbr-table.o
+                0x00006e6c                nbr_table_remove
  .text.nbr_table_lock
-                0x00006e80       0x10 build/sky/obj/nbr-table.o
-                0x00006e80                nbr_table_lock
+                0x00006e9e       0x10 build/sky/obj/nbr-table.o
+                0x00006e9e                nbr_table_lock
  .text.nbr_table_unlock
-                0x00006e90       0x10 build/sky/obj/nbr-table.o
-                0x00006e90                nbr_table_unlock
+                0x00006eae       0x10 build/sky/obj/nbr-table.o
+                0x00006eae                nbr_table_unlock
  .text.nbr_table_get_lladdr
-                0x00006ea0       0x22 build/sky/obj/nbr-table.o
-                0x00006ea0                nbr_table_get_lladdr
+                0x00006ebe       0x22 build/sky/obj/nbr-table.o
+                0x00006ebe                nbr_table_get_lladdr
  .text.netstack_process_ip_callback
-                0x00006ec2       0x48 build/sky/obj/netstack.o
-                0x00006ec2                netstack_process_ip_callback
+                0x00006ee0       0x48 build/sky/obj/netstack.o
+                0x00006ee0                netstack_process_ip_callback
  .text.packetbuf_hdrreduce
-                0x00006f0a       0x1a build/sky/obj/packetbuf.o
-                0x00006f0a                packetbuf_hdrreduce
+                0x00006f28       0x1a build/sky/obj/packetbuf.o
+                0x00006f28                packetbuf_hdrreduce
  .text.packetbuf_set_datalen
-                0x00006f24        0x6 build/sky/obj/packetbuf.o
-                0x00006f24                packetbuf_set_datalen
+                0x00006f42        0x6 build/sky/obj/packetbuf.o
+                0x00006f42                packetbuf_set_datalen
  .text.packetbuf_hdrptr
-                0x00006f2a        0x6 build/sky/obj/packetbuf.o
-                0x00006f2a                packetbuf_hdrptr
+                0x00006f48        0x6 build/sky/obj/packetbuf.o
+                0x00006f48                packetbuf_hdrptr
  .text.packetbuf_datalen
-                0x00006f30        0x6 build/sky/obj/packetbuf.o
-                0x00006f30                packetbuf_datalen
+                0x00006f4e        0x6 build/sky/obj/packetbuf.o
+                0x00006f4e                packetbuf_datalen
  .text.packetbuf_hdrlen
-                0x00006f36        0xa build/sky/obj/packetbuf.o
-                0x00006f36                packetbuf_hdrlen
+                0x00006f54        0xa build/sky/obj/packetbuf.o
+                0x00006f54                packetbuf_hdrlen
  .text.packetbuf_dataptr
-                0x00006f40        0xc build/sky/obj/packetbuf.o
-                0x00006f40                packetbuf_dataptr
+                0x00006f5e        0xc build/sky/obj/packetbuf.o
+                0x00006f5e                packetbuf_dataptr
  .text.packetbuf_copyto
-                0x00006f4c       0x46 build/sky/obj/packetbuf.o
-                0x00006f4c                packetbuf_copyto
+                0x00006f6a       0x46 build/sky/obj/packetbuf.o
+                0x00006f6a                packetbuf_copyto
  .text.packetbuf_totlen
-                0x00006f92        0xc build/sky/obj/packetbuf.o
-                0x00006f92                packetbuf_totlen
+                0x00006fb0        0xc build/sky/obj/packetbuf.o
+                0x00006fb0                packetbuf_totlen
  .text.packetbuf_hdralloc
-                0x00006f9e       0x3c build/sky/obj/packetbuf.o
-                0x00006f9e                packetbuf_hdralloc
+                0x00006fbc       0x3c build/sky/obj/packetbuf.o
+                0x00006fbc                packetbuf_hdralloc
  .text.packetbuf_attr_clear
-                0x00006fda       0x28 build/sky/obj/packetbuf.o
-                0x00006fda                packetbuf_attr_clear
+                0x00006ff8       0x28 build/sky/obj/packetbuf.o
+                0x00006ff8                packetbuf_attr_clear
  .text.packetbuf_clear
-                0x00007002       0x12 build/sky/obj/packetbuf.o
-                0x00007002                packetbuf_clear
+                0x00007020       0x12 build/sky/obj/packetbuf.o
+                0x00007020                packetbuf_clear
  .text.packetbuf_copyfrom
-                0x00007014       0x2e build/sky/obj/packetbuf.o
-                0x00007014                packetbuf_copyfrom
+                0x00007032       0x2e build/sky/obj/packetbuf.o
+                0x00007032                packetbuf_copyfrom
  .text.packetbuf_attr_copyto
-                0x00007042       0x22 build/sky/obj/packetbuf.o
-                0x00007042                packetbuf_attr_copyto
+                0x00007060       0x22 build/sky/obj/packetbuf.o
+                0x00007060                packetbuf_attr_copyto
  .text.packetbuf_attr_copyfrom
-                0x00007064       0x24 build/sky/obj/packetbuf.o
-                0x00007064                packetbuf_attr_copyfrom
+                0x00007082       0x24 build/sky/obj/packetbuf.o
+                0x00007082                packetbuf_attr_copyfrom
  .text.packetbuf_set_attr
-                0x00007088        0xa build/sky/obj/packetbuf.o
-                0x00007088                packetbuf_set_attr
+                0x000070a6        0xa build/sky/obj/packetbuf.o
+                0x000070a6                packetbuf_set_attr
  .text.packetbuf_attr
-                0x00007092        0xa build/sky/obj/packetbuf.o
-                0x00007092                packetbuf_attr
+                0x000070b0        0xa build/sky/obj/packetbuf.o
+                0x000070b0                packetbuf_attr
  .text.packetbuf_set_addr
-                0x0000709c       0x16 build/sky/obj/packetbuf.o
-                0x0000709c                packetbuf_set_addr
+                0x000070ba       0x16 build/sky/obj/packetbuf.o
+                0x000070ba                packetbuf_set_addr
  .text.packetbuf_addr
-                0x000070b2       0x12 build/sky/obj/packetbuf.o
-                0x000070b2                packetbuf_addr
+                0x000070d0       0x12 build/sky/obj/packetbuf.o
+                0x000070d0                packetbuf_addr
  .text.packetbuf_holds_broadcast
-                0x000070c4        0xe build/sky/obj/packetbuf.o
-                0x000070c4                packetbuf_holds_broadcast
+                0x000070e2        0xe build/sky/obj/packetbuf.o
+                0x000070e2                packetbuf_holds_broadcast
  .text.platform_init_stage_one
-                0x000070d2       0x12 build/sky/obj/platform.o
-                0x000070d2                platform_init_stage_one
+                0x000070f0       0x12 build/sky/obj/platform.o
+                0x000070f0                platform_init_stage_one
  .text.platform_init_stage_two
-                0x000070e4       0x68 build/sky/obj/platform.o
-                0x000070e4                platform_init_stage_two
+                0x00007102       0x68 build/sky/obj/platform.o
+                0x00007102                platform_init_stage_two
  .text.platform_init_stage_three
-                0x0000714c       0x80 build/sky/obj/platform.o
-                0x0000714c                platform_init_stage_three
+                0x0000716a       0x80 build/sky/obj/platform.o
+                0x0000716a                platform_init_stage_three
  .text.platform_idle
-                0x000071cc       0x54 build/sky/obj/platform.o
-                0x000071cc                platform_idle
+                0x000071ea       0x54 build/sky/obj/platform.o
+                0x000071ea                platform_idle
  .text.call_process
-                0x00007220       0x46 build/sky/obj/process.o
+                0x0000723e       0x46 build/sky/obj/process.o
  .text.exit_process
-                0x00007266       0x98 build/sky/obj/process.o
- .text.do_poll  0x000072fe       0x30 build/sky/obj/process.o
+                0x00007284       0x98 build/sky/obj/process.o
+ .text.do_poll  0x0000731c       0x30 build/sky/obj/process.o
  .text.process_alloc_event
-                0x0000732e       0x18 build/sky/obj/process.o
-                0x0000732e                process_alloc_event
+                0x0000734c       0x18 build/sky/obj/process.o
+                0x0000734c                process_alloc_event
  .text.process_init
-                0x00007346        0x8 build/sky/obj/process.o
-                0x00007346                process_init
+                0x00007364        0x8 build/sky/obj/process.o
+                0x00007364                process_init
  .text.process_run
-                0x0000734e       0x8c build/sky/obj/process.o
-                0x0000734e                process_run
+                0x0000736c       0x8c build/sky/obj/process.o
+                0x0000736c                process_run
  .text.process_nevents
-                0x000073da        0xa build/sky/obj/process.o
-                0x000073da                process_nevents
+                0x000073f8        0xa build/sky/obj/process.o
+                0x000073f8                process_nevents
  .text.process_post
-                0x000073e4       0x42 build/sky/obj/process.o
-                0x000073e4                process_post
+                0x00007402       0x42 build/sky/obj/process.o
+                0x00007402                process_post
  .text.process_post_synch
-                0x00007426       0x12 build/sky/obj/process.o
-                0x00007426                process_post_synch
+                0x00007444       0x12 build/sky/obj/process.o
+                0x00007444                process_post_synch
  .text.process_start
-                0x00007438       0x36 build/sky/obj/process.o
-                0x00007438                process_start
+                0x00007456       0x36 build/sky/obj/process.o
+                0x00007456                process_start
  .text.process_poll
-                0x0000746e       0x18 build/sky/obj/process.o
-                0x0000746e                process_poll
+                0x0000748c       0x18 build/sky/obj/process.o
+                0x0000748c                process_poll
  .text.queuebuf_init
-                0x00007486       0x12 build/sky/obj/queuebuf.o
-                0x00007486                queuebuf_init
+                0x000074a4       0x12 build/sky/obj/queuebuf.o
+                0x000074a4                queuebuf_init
  .text.queuebuf_numfree
-                0x00007498        0xa build/sky/obj/queuebuf.o
-                0x00007498                queuebuf_numfree
+                0x000074b6        0xa build/sky/obj/queuebuf.o
+                0x000074b6                queuebuf_numfree
  .text.queuebuf_new_from_packetbuf
-                0x000074a2       0x52 build/sky/obj/queuebuf.o
-                0x000074a2                queuebuf_new_from_packetbuf
+                0x000074c0       0x52 build/sky/obj/queuebuf.o
+                0x000074c0                queuebuf_new_from_packetbuf
  .text.queuebuf_update_attr_from_packetbuf
-                0x000074f4       0x12 build/sky/obj/queuebuf.o
-                0x000074f4                queuebuf_update_attr_from_packetbuf
+                0x00007512       0x12 build/sky/obj/queuebuf.o
+                0x00007512                queuebuf_update_attr_from_packetbuf
  .text.queuebuf_free
-                0x00007506       0x2a build/sky/obj/queuebuf.o
-                0x00007506                queuebuf_free
+                0x00007524       0x2a build/sky/obj/queuebuf.o
+                0x00007524                queuebuf_free
  .text.queuebuf_to_packetbuf
-                0x00007530       0x32 build/sky/obj/queuebuf.o
-                0x00007530                queuebuf_to_packetbuf
+                0x0000754e       0x32 build/sky/obj/queuebuf.o
+                0x0000754e                queuebuf_to_packetbuf
  .text.random_init
-                0x00007562        0x6 build/sky/obj/random.o
-                0x00007562                random_init
+                0x00007580        0x6 build/sky/obj/random.o
+                0x00007580                random_init
  .text.random_rand
-                0x00007568        0x6 build/sky/obj/random.o
-                0x00007568                random_rand
+                0x00007586        0x6 build/sky/obj/random.o
+                0x00007586                random_rand
  .text.rpl_dag_root_set_prefix
-                0x0000756e       0x62 build/sky/obj/rpl-dag-root.o
-                0x0000756e                rpl_dag_root_set_prefix
+                0x0000758c       0x62 build/sky/obj/rpl-dag-root.o
+                0x0000758c                rpl_dag_root_set_prefix
  .text.rpl_dag_root_start
-                0x000075d0       0x8e build/sky/obj/rpl-dag-root.o
-                0x000075d0                rpl_dag_root_start
+                0x000075ee       0x8e build/sky/obj/rpl-dag-root.o
+                0x000075ee                rpl_dag_root_start
  .text.rpl_dag_root_is_root
-                0x0000765e       0x14 build/sky/obj/rpl-dag-root.o
-                0x0000765e                rpl_dag_root_is_root
+                0x0000767c       0x14 build/sky/obj/rpl-dag-root.o
+                0x0000767c                rpl_dag_root_is_root
  .text.init_dag
-                0x00007672       0x84 build/sky/obj/rpl-dag.o
+                0x00007690       0x84 build/sky/obj/rpl-dag.o
  .text.process_dio_init_dag
-                0x000076f6       0xb0 build/sky/obj/rpl-dag.o
+                0x00007714       0xb0 build/sky/obj/rpl-dag.o
  .text.rpl_dag_get_root_ipaddr
-                0x000077a6       0x1e build/sky/obj/rpl-dag.o
-                0x000077a6                rpl_dag_get_root_ipaddr
+                0x000077c4       0x1e build/sky/obj/rpl-dag.o
+                0x000077c4                rpl_dag_get_root_ipaddr
  .text.rpl_dag_leave
-                0x000077c4       0x4a build/sky/obj/rpl-dag.o
-                0x000077c4                rpl_dag_leave
+                0x000077e2       0x4a build/sky/obj/rpl-dag.o
+                0x000077e2                rpl_dag_leave
  .text.rpl_dag_poison_and_leave
-                0x0000780e        0xc build/sky/obj/rpl-dag.o
-                0x0000780e                rpl_dag_poison_and_leave
+                0x0000782c        0xc build/sky/obj/rpl-dag.o
+                0x0000782c                rpl_dag_poison_and_leave
  .text.rpl_dag_periodic
-                0x0000781a       0x6a build/sky/obj/rpl-dag.o
-                0x0000781a                rpl_dag_periodic
+                0x00007838       0x6a build/sky/obj/rpl-dag.o
+                0x00007838                rpl_dag_periodic
  .text.rpl_is_addr_in_our_dag
-                0x00007884       0x34 build/sky/obj/rpl-dag.o
-                0x00007884                rpl_is_addr_in_our_dag
+                0x000078a2       0x34 build/sky/obj/rpl-dag.o
+                0x000078a2                rpl_is_addr_in_our_dag
  .text.rpl_local_repair
-                0x000078b8       0x2a build/sky/obj/rpl-dag.o
-                0x000078b8                rpl_local_repair
+                0x000078d6       0x2a build/sky/obj/rpl-dag.o
+                0x000078d6                rpl_local_repair
  .text.rpl_global_repair
-                0x000078e2       0x2e build/sky/obj/rpl-dag.o
-                0x000078e2                rpl_global_repair
+                0x00007900       0x2e build/sky/obj/rpl-dag.o
+                0x00007900                rpl_global_repair
  .text.rpl_dag_ready_to_advertise
-                0x00007910       0x22 build/sky/obj/rpl-dag.o
-                0x00007910                rpl_dag_ready_to_advertise
+                0x0000792e       0x22 build/sky/obj/rpl-dag.o
+                0x0000792e                rpl_dag_ready_to_advertise
  .text.rpl_dag_update_state
-                0x00007932      0x144 build/sky/obj/rpl-dag.o
-                0x00007932                rpl_dag_update_state
+                0x00007950      0x144 build/sky/obj/rpl-dag.o
+                0x00007950                rpl_dag_update_state
  .text.rpl_process_dio
-                0x00007a76      0x1b6 build/sky/obj/rpl-dag.o
-                0x00007a76                rpl_process_dio
+                0x00007a94      0x1b6 build/sky/obj/rpl-dag.o
+                0x00007a94                rpl_process_dio
  .text.rpl_process_dis
-                0x00007c2c       0x2a build/sky/obj/rpl-dag.o
-                0x00007c2c                rpl_process_dis
+                0x00007c4a       0x2a build/sky/obj/rpl-dag.o
+                0x00007c4a                rpl_process_dis
  .text.rpl_process_dao
-                0x00007c56       0x6c build/sky/obj/rpl-dag.o
-                0x00007c56                rpl_process_dao
+                0x00007c74       0x6c build/sky/obj/rpl-dag.o
+                0x00007c74                rpl_process_dao
  .text.rpl_process_dao_ack
-                0x00007cc2       0x54 build/sky/obj/rpl-dag.o
-                0x00007cc2                rpl_process_dao_ack
+                0x00007ce0       0x54 build/sky/obj/rpl-dag.o
+                0x00007ce0                rpl_process_dao_ack
  .text.rpl_process_hbh
-                0x00007d16       0x2e build/sky/obj/rpl-dag.o
-                0x00007d16                rpl_process_hbh
+                0x00007d34       0x2e build/sky/obj/rpl-dag.o
+                0x00007d34                rpl_process_hbh
  .text.rpl_dag_init_root
-                0x00007d44       0xbc build/sky/obj/rpl-dag.o
-                0x00007d44                rpl_dag_init_root
+                0x00007d62       0xbc build/sky/obj/rpl-dag.o
+                0x00007d62                rpl_dag_init_root
  .text.rpl_dag_init
-                0x00007e00       0x10 build/sky/obj/rpl-dag.o
-                0x00007e00                rpl_dag_init
+                0x00007e1e       0x10 build/sky/obj/rpl-dag.o
+                0x00007e1e                rpl_dag_init
  .text.update_hbh_header
-                0x00007e10       0x4a build/sky/obj/rpl-ext-header.o
+                0x00007e2e       0x4a build/sky/obj/rpl-ext-header.o
  .text.rpl_ext_header_srh_get_next_hop
-                0x00007e5a       0x84 build/sky/obj/rpl-ext-header.o
-                0x00007e5a                rpl_ext_header_srh_get_next_hop
+                0x00007e78       0x84 build/sky/obj/rpl-ext-header.o
+                0x00007e78                rpl_ext_header_srh_get_next_hop
  .text.rpl_ext_header_srh_update
-                0x00007ede      0x250 build/sky/obj/rpl-ext-header.o
-                0x00007ede                rpl_ext_header_srh_update
+                0x00007efc      0x250 build/sky/obj/rpl-ext-header.o
+                0x00007efc                rpl_ext_header_srh_update
  .text.rpl_ext_header_hbh_update
-                0x0000812e       0xa4 build/sky/obj/rpl-ext-header.o
-                0x0000812e                rpl_ext_header_hbh_update
+                0x0000814c       0xa4 build/sky/obj/rpl-ext-header.o
+                0x0000814c                rpl_ext_header_hbh_update
  .text.rpl_ext_header_remove
-                0x000081d2       0xcc build/sky/obj/rpl-ext-header.o
-                0x000081d2                rpl_ext_header_remove
+                0x000081f0       0xcc build/sky/obj/rpl-ext-header.o
+                0x000081f0                rpl_ext_header_remove
  .text.rpl_ext_header_update
-                0x0000829e      0x2aa build/sky/obj/rpl-ext-header.o
-                0x0000829e                rpl_ext_header_update
- .text.get32    0x00008548       0x46 build/sky/obj/rpl-icmp6.o
- .text.set32    0x0000858e       0x2a build/sky/obj/rpl-icmp6.o
- .text.get16    0x000085b8        0xe build/sky/obj/rpl-icmp6.o
- .text.set16    0x000085c6       0x10 build/sky/obj/rpl-icmp6.o
+                0x000082bc      0x2aa build/sky/obj/rpl-ext-header.o
+                0x000082bc                rpl_ext_header_update
+ .text.get32    0x00008566       0x46 build/sky/obj/rpl-icmp6.o
+ .text.set32    0x000085ac       0x2a build/sky/obj/rpl-icmp6.o
+ .text.get16    0x000085d6        0xe build/sky/obj/rpl-icmp6.o
+ .text.set16    0x000085e4       0x10 build/sky/obj/rpl-icmp6.o
  .text.dao_ack_input
-                0x000085d6       0x30 build/sky/obj/rpl-icmp6.o
+                0x000085f4       0x30 build/sky/obj/rpl-icmp6.o
  .text.dao_input
-                0x00008606      0x16c build/sky/obj/rpl-icmp6.o
+                0x00008624      0x16c build/sky/obj/rpl-icmp6.o
  .text.dio_input
-                0x00008772      0x2ba build/sky/obj/rpl-icmp6.o
+                0x00008790      0x2ba build/sky/obj/rpl-icmp6.o
  .text.dis_input
-                0x00008a2c       0x1e build/sky/obj/rpl-icmp6.o
+                0x00008a4a       0x1e build/sky/obj/rpl-icmp6.o
  .text.rpl_icmp6_update_nbr_table
-                0x00008a4a       0x36 build/sky/obj/rpl-icmp6.o
-                0x00008a4a                rpl_icmp6_update_nbr_table
+                0x00008a68       0x36 build/sky/obj/rpl-icmp6.o
+                0x00008a68                rpl_icmp6_update_nbr_table
  .text.rpl_icmp6_dis_output
-                0x00008a80       0x34 build/sky/obj/rpl-icmp6.o
-                0x00008a80                rpl_icmp6_dis_output
+                0x00008a9e       0x34 build/sky/obj/rpl-icmp6.o
+                0x00008a9e                rpl_icmp6_dis_output
  .text.rpl_icmp6_dio_output
-                0x00008ab4      0x230 build/sky/obj/rpl-icmp6.o
-                0x00008ab4                rpl_icmp6_dio_output
+                0x00008ad2      0x230 build/sky/obj/rpl-icmp6.o
+                0x00008ad2                rpl_icmp6_dio_output
  .text.rpl_icmp6_dao_output
-                0x00008ce4       0xe2 build/sky/obj/rpl-icmp6.o
-                0x00008ce4                rpl_icmp6_dao_output
+                0x00008d02       0xe2 build/sky/obj/rpl-icmp6.o
+                0x00008d02                rpl_icmp6_dao_output
  .text.rpl_icmp6_dao_ack_output
-                0x00008dc6       0x4e build/sky/obj/rpl-icmp6.o
-                0x00008dc6                rpl_icmp6_dao_ack_output
+                0x00008de4       0x4e build/sky/obj/rpl-icmp6.o
+                0x00008de4                rpl_icmp6_dao_ack_output
  .text.rpl_icmp6_init
-                0x00008e14       0x22 build/sky/obj/rpl-icmp6.o
-                0x00008e14                rpl_icmp6_init
- .text.reset    0x00008e36        0x2 build/sky/obj/rpl-mrhof.o
+                0x00008e32       0x22 build/sky/obj/rpl-icmp6.o
+                0x00008e32                rpl_icmp6_init
+ .text.reset    0x00008e54        0x2 build/sky/obj/rpl-mrhof.o
  .text.update_metric_container
-                0x00008e38        0x6 build/sky/obj/rpl-mrhof.o
+                0x00008e56        0x6 build/sky/obj/rpl-mrhof.o
  .text.nbr_link_metric
-                0x00008e3e       0x12 build/sky/obj/rpl-mrhof.o
+                0x00008e5c       0x12 build/sky/obj/rpl-mrhof.o
  .text.nbr_has_usable_link
-                0x00008e50       0x14 build/sky/obj/rpl-mrhof.o
+                0x00008e6e       0x14 build/sky/obj/rpl-mrhof.o
  .text.nbr_path_cost
-                0x00008e64       0x38 build/sky/obj/rpl-mrhof.o
+                0x00008e82       0x38 build/sky/obj/rpl-mrhof.o
  .text.within_hysteresis
-                0x00008e9c       0x54 build/sky/obj/rpl-mrhof.o
+                0x00008eba       0x54 build/sky/obj/rpl-mrhof.o
  .text.nbr_is_acceptable_parent
-                0x00008ef0       0x2c build/sky/obj/rpl-mrhof.o
+                0x00008f0e       0x2c build/sky/obj/rpl-mrhof.o
  .text.rank_via_nbr
-                0x00008f1c       0x48 build/sky/obj/rpl-mrhof.o
+                0x00008f3a       0x48 build/sky/obj/rpl-mrhof.o
  .text.best_parent
-                0x00008f64       0x7c build/sky/obj/rpl-mrhof.o
+                0x00008f82       0x7c build/sky/obj/rpl-mrhof.o
  .text.get_rank
-                0x00008fe0       0x16 build/sky/obj/rpl-nbr-policy.o
+                0x00008ffe       0x16 build/sky/obj/rpl-nbr-policy.o
  .text.rpl_nbr_gc_get_worst
-                0x00008ff6       0x28 build/sky/obj/rpl-nbr-policy.o
-                0x00008ff6                rpl_nbr_gc_get_worst
+                0x00009014       0x28 build/sky/obj/rpl-nbr-policy.o
+                0x00009014                rpl_nbr_gc_get_worst
  .text.remove_neighbor
-                0x0000901e       0x24 build/sky/obj/rpl-neighbor.o
+                0x0000903c       0x24 build/sky/obj/rpl-neighbor.o
  .text.rpl_neighbor_get_from_lladdr
-                0x00009042        0xc build/sky/obj/rpl-neighbor.o
-                0x00009042                rpl_neighbor_get_from_lladdr
+                0x00009060        0xc build/sky/obj/rpl-neighbor.o
+                0x00009060                rpl_neighbor_get_from_lladdr
  .text.rpl_neighbor_rank_via_nbr
-                0x0000904e       0x18 build/sky/obj/rpl-neighbor.o
-                0x0000904e                rpl_neighbor_rank_via_nbr
+                0x0000906c       0x18 build/sky/obj/rpl-neighbor.o
+                0x0000906c                rpl_neighbor_rank_via_nbr
  .text.rpl_neighbor_get_lladdr
-                0x00009066        0xc build/sky/obj/rpl-neighbor.o
-                0x00009066                rpl_neighbor_get_lladdr
+                0x00009084        0xc build/sky/obj/rpl-neighbor.o
+                0x00009084                rpl_neighbor_get_lladdr
  .text.rpl_neighbor_get_ipaddr
-                0x00009072        0xa build/sky/obj/rpl-neighbor.o
-                0x00009072                rpl_neighbor_get_ipaddr
+                0x00009090        0xa build/sky/obj/rpl-neighbor.o
+                0x00009090                rpl_neighbor_get_ipaddr
  .text.rpl_neighbor_get_link_stats
-                0x0000907c        0xa build/sky/obj/rpl-neighbor.o
-                0x0000907c                rpl_neighbor_get_link_stats
+                0x0000909a        0xa build/sky/obj/rpl-neighbor.o
+                0x0000909a                rpl_neighbor_get_link_stats
  .text.rpl_neighbor_is_fresh
-                0x00009086        0xa build/sky/obj/rpl-neighbor.o
-                0x00009086                rpl_neighbor_is_fresh
+                0x000090a4        0xa build/sky/obj/rpl-neighbor.o
+                0x000090a4                rpl_neighbor_is_fresh
  .text.best_parent
-                0x00009090       0xb4 build/sky/obj/rpl-neighbor.o
+                0x000090ae       0xb4 build/sky/obj/rpl-neighbor.o
  .text.rpl_neighbor_set_preferred_parent
-                0x00009144       0x48 build/sky/obj/rpl-neighbor.o
-                0x00009144                rpl_neighbor_set_preferred_parent
+                0x00009162       0x48 build/sky/obj/rpl-neighbor.o
+                0x00009162                rpl_neighbor_set_preferred_parent
  .text.rpl_neighbor_remove_all
-                0x0000918c       0x30 build/sky/obj/rpl-neighbor.o
-                0x0000918c                rpl_neighbor_remove_all
+                0x000091aa       0x30 build/sky/obj/rpl-neighbor.o
+                0x000091aa                rpl_neighbor_remove_all
  .text.rpl_neighbor_get_from_ipaddr
-                0x000091bc       0x14 build/sky/obj/rpl-neighbor.o
-                0x000091bc                rpl_neighbor_get_from_ipaddr
+                0x000091da       0x14 build/sky/obj/rpl-neighbor.o
+                0x000091da                rpl_neighbor_get_from_ipaddr
  .text.rpl_neighbor_select_best
-                0x000091d0       0x54 build/sky/obj/rpl-neighbor.o
-                0x000091d0                rpl_neighbor_select_best
+                0x000091ee       0x54 build/sky/obj/rpl-neighbor.o
+                0x000091ee                rpl_neighbor_select_best
  .text.rpl_neighbor_init
-                0x00009224        0xe build/sky/obj/rpl-neighbor.o
-                0x00009224                rpl_neighbor_init
+                0x00009242        0xe build/sky/obj/rpl-neighbor.o
+                0x00009242                rpl_neighbor_init
  .text.handle_state_update
-                0x00009232        0x6 build/sky/obj/rpl-timers.o
+                0x00009250        0x6 build/sky/obj/rpl-timers.o
  .text.handle_leaving_timer
-                0x00009238        0xc build/sky/obj/rpl-timers.o
+                0x00009256        0xc build/sky/obj/rpl-timers.o
  .text.handle_unicast_dio_timer
-                0x00009244       0x12 build/sky/obj/rpl-timers.o
+                0x00009262       0x12 build/sky/obj/rpl-timers.o
  .text.handle_dao_ack_timer
-                0x00009256       0x12 build/sky/obj/rpl-timers.o
+                0x00009274       0x12 build/sky/obj/rpl-timers.o
  .text.ctimer_set.constprop.3
-                0x00009268        0xe build/sky/obj/rpl-timers.o
+                0x00009286        0xe build/sky/obj/rpl-timers.o
  .text.new_dio_interval
-                0x00009276       0x86 build/sky/obj/rpl-timers.o
+                0x00009294       0x86 build/sky/obj/rpl-timers.o
  .text.handle_dio_timer
-                0x000092fc       0x6a build/sky/obj/rpl-timers.o
+                0x0000931a       0x6a build/sky/obj/rpl-timers.o
  .text.schedule_dao_retransmission
-                0x00009366       0x30 build/sky/obj/rpl-timers.o
+                0x00009384       0x30 build/sky/obj/rpl-timers.o
  .text.send_new_dao
-                0x00009396       0x28 build/sky/obj/rpl-timers.o
+                0x000093b4       0x28 build/sky/obj/rpl-timers.o
  .text.resend_dao
-                0x000093be       0x24 build/sky/obj/rpl-timers.o
+                0x000093dc       0x24 build/sky/obj/rpl-timers.o
  .text.rpl_timers_schedule_periodic_dis
-                0x000093e2       0x3c build/sky/obj/rpl-timers.o
-                0x000093e2                rpl_timers_schedule_periodic_dis
+                0x00009400       0x3c build/sky/obj/rpl-timers.o
+                0x00009400                rpl_timers_schedule_periodic_dis
  .text.handle_periodic_timer
-                0x0000941e       0x3a build/sky/obj/rpl-timers.o
+                0x0000943c       0x3a build/sky/obj/rpl-timers.o
  .text.handle_dis_timer
-                0x00009458       0x26 build/sky/obj/rpl-timers.o
+                0x00009476       0x26 build/sky/obj/rpl-timers.o
  .text.rpl_timers_dio_reset
-                0x0000947e       0x2e build/sky/obj/rpl-timers.o
-                0x0000947e                rpl_timers_dio_reset
+                0x0000949c       0x2e build/sky/obj/rpl-timers.o
+                0x0000949c                rpl_timers_dio_reset
  .text.rpl_timers_schedule_unicast_dio
-                0x000094ac       0x1c build/sky/obj/rpl-timers.o
-                0x000094ac                rpl_timers_schedule_unicast_dio
+                0x000094ca       0x1c build/sky/obj/rpl-timers.o
+                0x000094ca                rpl_timers_schedule_unicast_dio
  .text.rpl_timers_schedule_dao
-                0x000094c8       0x38 build/sky/obj/rpl-timers.o
-                0x000094c8                rpl_timers_schedule_dao
+                0x000094e6       0x38 build/sky/obj/rpl-timers.o
+                0x000094e6                rpl_timers_schedule_dao
  .text.rpl_timers_schedule_dao_ack
-                0x00009500       0x30 build/sky/obj/rpl-timers.o
-                0x00009500                rpl_timers_schedule_dao_ack
+                0x0000951e       0x30 build/sky/obj/rpl-timers.o
+                0x0000951e                rpl_timers_schedule_dao_ack
  .text.rpl_timers_notify_dao_ack
-                0x00009530       0x7e build/sky/obj/rpl-timers.o
-                0x00009530                rpl_timers_notify_dao_ack
+                0x0000954e       0x7e build/sky/obj/rpl-timers.o
+                0x0000954e                rpl_timers_notify_dao_ack
  .text.get_probing_delay
-                0x000095ae       0x1c build/sky/obj/rpl-timers.o
-                0x000095ae                get_probing_delay
+                0x000095cc       0x1c build/sky/obj/rpl-timers.o
+                0x000095cc                get_probing_delay
  .text.get_probing_target
-                0x000095ca       0xee build/sky/obj/rpl-timers.o
-                0x000095ca                get_probing_target
+                0x000095e8       0xee build/sky/obj/rpl-timers.o
+                0x000095e8                get_probing_target
  .text.rpl_schedule_probing
-                0x000096b8       0x1c build/sky/obj/rpl-timers.o
-                0x000096b8                rpl_schedule_probing
+                0x000096d6       0x1c build/sky/obj/rpl-timers.o
+                0x000096d6                rpl_schedule_probing
  .text.handle_probing_timer
-                0x000096d4       0x2a build/sky/obj/rpl-timers.o
+                0x000096f2       0x2a build/sky/obj/rpl-timers.o
  .text.rpl_schedule_probing_now
-                0x000096fe       0x20 build/sky/obj/rpl-timers.o
-                0x000096fe                rpl_schedule_probing_now
+                0x0000971c       0x20 build/sky/obj/rpl-timers.o
+                0x0000971c                rpl_schedule_probing_now
  .text.rpl_timers_unschedule_leaving
-                0x0000971e       0x1c build/sky/obj/rpl-timers.o
-                0x0000971e                rpl_timers_unschedule_leaving
+                0x0000973c       0x1c build/sky/obj/rpl-timers.o
+                0x0000973c                rpl_timers_unschedule_leaving
  .text.rpl_timers_schedule_leaving
-                0x0000973a       0x26 build/sky/obj/rpl-timers.o
-                0x0000973a                rpl_timers_schedule_leaving
+                0x00009758       0x26 build/sky/obj/rpl-timers.o
+                0x00009758                rpl_timers_schedule_leaving
  .text.rpl_timers_init
-                0x00009760       0x18 build/sky/obj/rpl-timers.o
-                0x00009760                rpl_timers_init
+                0x0000977e       0x18 build/sky/obj/rpl-timers.o
+                0x0000977e                rpl_timers_init
  .text.rpl_timers_stop_dag_timers
-                0x00009778       0x4c build/sky/obj/rpl-timers.o
-                0x00009778                rpl_timers_stop_dag_timers
+                0x00009796       0x4c build/sky/obj/rpl-timers.o
+                0x00009796                rpl_timers_stop_dag_timers
  .text.rpl_timers_schedule_state_update
-                0x000097c4       0x18 build/sky/obj/rpl-timers.o
-                0x000097c4                rpl_timers_schedule_state_update
+                0x000097e2       0x18 build/sky/obj/rpl-timers.o
+                0x000097e2                rpl_timers_schedule_state_update
  .text.rpl_has_joined
-                0x000097dc       0x12 build/sky/obj/rpl.o
-                0x000097dc                rpl_has_joined
+                0x000097fa       0x12 build/sky/obj/rpl.o
+                0x000097fa                rpl_has_joined
  .text.rpl_is_reachable
-                0x000097ee       0x12 build/sky/obj/rpl.o
-                0x000097ee                rpl_is_reachable
+                0x0000980c       0x12 build/sky/obj/rpl.o
+                0x0000980c                rpl_is_reachable
  .text.neighbor_state_changed
-                0x00009800        0x2 build/sky/obj/rpl.o
+                0x0000981e        0x2 build/sky/obj/rpl.o
  .text.drop_route
-                0x00009802        0x2 build/sky/obj/rpl.o
+                0x00009820        0x2 build/sky/obj/rpl.o
  .text.rpl_get_leaf_only
-                0x00009804        0x6 build/sky/obj/rpl.o
-                0x00009804                rpl_get_leaf_only
+                0x00009822        0x6 build/sky/obj/rpl.o
+                0x00009822                rpl_get_leaf_only
  .text.get_sr_node_ipaddr
-                0x0000980a       0x34 build/sky/obj/rpl.o
- .text.init     0x0000983e       0x42 build/sky/obj/rpl.o
+                0x00009828       0x34 build/sky/obj/rpl.o
+ .text.init     0x0000985c       0x42 build/sky/obj/rpl.o
  .text.set_ip_from_prefix
-                0x00009880       0x38 build/sky/obj/rpl.o
+                0x0000989e       0x38 build/sky/obj/rpl.o
  .text.rpl_link_callback
-                0x000098b8       0x1e build/sky/obj/rpl.o
-                0x000098b8                rpl_link_callback
+                0x000098d6       0x1e build/sky/obj/rpl.o
+                0x000098d6                rpl_link_callback
  .text.rpl_lollipop_greater_than
-                0x000098d6       0x3c build/sky/obj/rpl.o
-                0x000098d6                rpl_lollipop_greater_than
+                0x000098f4       0x3c build/sky/obj/rpl.o
+                0x000098f4                rpl_lollipop_greater_than
  .text.rpl_get_global_address
-                0x00009912       0xbe build/sky/obj/rpl.o
-                0x00009912                rpl_get_global_address
+                0x00009930       0xbe build/sky/obj/rpl.o
+                0x00009930                rpl_get_global_address
  .text.rpl_reset_prefix
-                0x000099d0       0x24 build/sky/obj/rpl.o
-                0x000099d0                rpl_reset_prefix
+                0x000099ee       0x24 build/sky/obj/rpl.o
+                0x000099ee                rpl_reset_prefix
  .text.rpl_set_prefix_from_addr
-                0x000099f4       0x92 build/sky/obj/rpl.o
-                0x000099f4                rpl_set_prefix_from_addr
- .text.timera0  0x00009a86       0x2c build/sky/obj/rtimer-arch.o
-                0x00009a86                __isr_6
-                0x00009a86                timera0
+                0x00009a12       0x92 build/sky/obj/rpl.o
+                0x00009a12                rpl_set_prefix_from_addr
+ .text.timera0  0x00009aa4       0x2c build/sky/obj/rtimer-arch.o
+                0x00009aa4                __isr_6
+                0x00009aa4                timera0
  .text.rtimer_arch_init
-                0x00009ab2        0xe build/sky/obj/rtimer-arch.o
-                0x00009ab2                rtimer_arch_init
+                0x00009ad0        0xe build/sky/obj/rtimer-arch.o
+                0x00009ad0                rtimer_arch_init
  .text.rtimer_arch_now
-                0x00009ac0        0xe build/sky/obj/rtimer-arch.o
-                0x00009ac0                rtimer_arch_now
+                0x00009ade        0xe build/sky/obj/rtimer-arch.o
+                0x00009ade                rtimer_arch_now
  .text.rtimer_run_next
-                0x00009ace       0x18 build/sky/obj/rtimer.o
-                0x00009ace                rtimer_run_next
+                0x00009aec       0x18 build/sky/obj/rtimer.o
+                0x00009aec                rtimer_run_next
  .text.process_thread_sensors_process
-                0x00009ae6       0xc2 build/sky/obj/sensors.o
+                0x00009b04       0xc2 build/sky/obj/sensors.o
  .text.sensors_changed
-                0x00009ba8       0x2a build/sky/obj/sensors.o
-                0x00009ba8                sensors_changed
+                0x00009bc6       0x2a build/sky/obj/sensors.o
+                0x00009bc6                sensors_changed
  .text.clear_fragments
-                0x00009bd2       0x40 build/sky/obj/sicslowpan.o
+                0x00009bf0       0x40 build/sky/obj/sicslowpan.o
  .text.addr_context_lookup_by_number
-                0x00009c12       0x16 build/sky/obj/sicslowpan.o
+                0x00009c30       0x16 build/sky/obj/sicslowpan.o
  .text.sicslowpan_init
-                0x00009c28       0x18 build/sky/obj/sicslowpan.o
-                0x00009c28                sicslowpan_init
+                0x00009c46       0x18 build/sky/obj/sicslowpan.o
+                0x00009c46                sicslowpan_init
  .text.set_packet_attrs
-                0x00009c40       0x66 build/sky/obj/sicslowpan.o
+                0x00009c5e       0x66 build/sky/obj/sicslowpan.o
  .text.compress_addr_64
-                0x00009ca6       0xae build/sky/obj/sicslowpan.o
+                0x00009cc4       0xae build/sky/obj/sicslowpan.o
  .text.addr_context_lookup_by_prefix
-                0x00009d54       0x20 build/sky/obj/sicslowpan.o
+                0x00009d72       0x20 build/sky/obj/sicslowpan.o
  .text.send_packet
-                0x00009d74       0x10 build/sky/obj/sicslowpan.o
+                0x00009d92       0x10 build/sky/obj/sicslowpan.o
  .text.fragment_copy_payload_and_send
-                0x00009d84       0x58 build/sky/obj/sicslowpan.o
+                0x00009da2       0x58 build/sky/obj/sicslowpan.o
  .text.packet_sent
-                0x00009ddc       0x56 build/sky/obj/sicslowpan.o
+                0x00009dfa       0x56 build/sky/obj/sicslowpan.o
  .text.store_fragment
-                0x00009e32       0xb8 build/sky/obj/sicslowpan.o
+                0x00009e50       0xb8 build/sky/obj/sicslowpan.o
  .text.add_fragment
-                0x00009eea      0x1fc build/sky/obj/sicslowpan.o
+                0x00009f08      0x1fc build/sky/obj/sicslowpan.o
  .text.uncompress_addr
-                0x0000a0e6       0xce build/sky/obj/sicslowpan.o
- .text.output   0x0000a1b4      0x79a build/sky/obj/sicslowpan.o
- .text.input    0x0000a94e      0xa1a build/sky/obj/sicslowpan.o
+                0x0000a104       0xce build/sky/obj/sicslowpan.o
+ .text.output   0x0000a1d2      0x79a build/sky/obj/sicslowpan.o
+ .text.input    0x0000a96c      0xa1a build/sky/obj/sicslowpan.o
  .text.spi_init
-                0x0000b368       0x30 build/sky/obj/spi-legacy.o
-                0x0000b368                spi_init
+                0x0000b386       0x30 build/sky/obj/spi-legacy.o
+                0x0000b386                spi_init
  .text.stack_check_init
-                0x0000b398       0x2e build/sky/obj/stack-check.o
-                0x0000b398                stack_check_init
+                0x0000b3b6       0x2e build/sky/obj/stack-check.o
+                0x0000b3b6                stack_check_init
  .text.stack_check_get_usage
-                0x0000b3c6       0x46 build/sky/obj/stack-check.o
-                0x0000b3c6                stack_check_get_usage
+                0x0000b3e4       0x46 build/sky/obj/stack-check.o
+                0x0000b3e4                stack_check_get_usage
  .text.process_thread_stack_check_process
-                0x0000b40c       0x90 build/sky/obj/stack-check.o
+                0x0000b42a       0x90 build/sky/obj/stack-check.o
  .text.stimer_expired
-                0x0000b49c       0x30 build/sky/obj/stimer.o
-                0x0000b49c                stimer_expired
+                0x0000b4ba       0x30 build/sky/obj/stimer.o
+                0x0000b4ba                stimer_expired
  .text.tcpip_output
-                0x0000b4cc       0x22 build/sky/obj/tcpip.o
-                0x0000b4cc                tcpip_output
+                0x0000b4ea       0x22 build/sky/obj/tcpip.o
+                0x0000b4ea                tcpip_output
  .text.tcpip_input
-                0x0000b4ee       0x1e build/sky/obj/tcpip.o
-                0x0000b4ee                tcpip_input
+                0x0000b50c       0x1e build/sky/obj/tcpip.o
+                0x0000b50c                tcpip_input
  .text.tcpip_ipv6_output
-                0x0000b50c      0x114 build/sky/obj/tcpip.o
-                0x0000b50c                tcpip_ipv6_output
+                0x0000b52a      0x114 build/sky/obj/tcpip.o
+                0x0000b52a                tcpip_ipv6_output
  .text.packet_input.part.3
-                0x0000b620       0x12 build/sky/obj/tcpip.o
+                0x0000b63e       0x12 build/sky/obj/tcpip.o
  .text.process_thread_tcpip_process
-                0x0000b632       0xb6 build/sky/obj/tcpip.o
+                0x0000b650       0xb6 build/sky/obj/tcpip.o
  .text.tcpip_uipcall
-                0x0000b6e8       0x2a build/sky/obj/tcpip.o
-                0x0000b6e8                tcpip_uipcall
+                0x0000b706       0x2a build/sky/obj/tcpip.o
+                0x0000b706                tcpip_uipcall
  .text.timer_set
-                0x0000b712       0x1c build/sky/obj/timer.o
-                0x0000b712                timer_set
+                0x0000b730       0x1c build/sky/obj/timer.o
+                0x0000b730                timer_set
  .text.timer_expired
-                0x0000b72e       0x2a build/sky/obj/timer.o
-                0x0000b72e                timer_expired
+                0x0000b74c       0x2a build/sky/obj/timer.o
+                0x0000b74c                timer_expired
  .text.timer_reset
-                0x0000b758       0x1c build/sky/obj/timer.o
-                0x0000b758                timer_reset
- .text.putchar  0x0000b774       0x10 build/sky/obj/uart-putchar.o
-                0x0000b774                putchar
+                0x0000b776       0x1c build/sky/obj/timer.o
+                0x0000b776                timer_reset
+ .text.putchar  0x0000b792       0x10 build/sky/obj/uart-putchar.o
+                0x0000b792                putchar
  .text.uart1_active
-                0x0000b784       0x18 build/sky/obj/uart1.o
-                0x0000b784                uart1_active
+                0x0000b7a2       0x18 build/sky/obj/uart1.o
+                0x0000b7a2                uart1_active
  .text.uart1_writeb
-                0x0000b79c       0x18 build/sky/obj/uart1.o
-                0x0000b79c                uart1_writeb
+                0x0000b7ba       0x18 build/sky/obj/uart1.o
+                0x0000b7ba                uart1_writeb
  .text.uart1_init
-                0x0000b7b4       0xf4 build/sky/obj/uart1.o
-                0x0000b7b4                uart1_init
+                0x0000b7d2       0xf4 build/sky/obj/uart1.o
+                0x0000b7d2                uart1_init
  .text.uip_ds6_nbr_rm
-                0x0000b8a8       0x1e build/sky/obj/uip-ds6-nbr.o
-                0x0000b8a8                uip_ds6_nbr_rm
+                0x0000b8c6       0x1e build/sky/obj/uip-ds6-nbr.o
+                0x0000b8c6                uip_ds6_nbr_rm
  .text.uip_ds6_neighbors_init
-                0x0000b8c6       0x12 build/sky/obj/uip-ds6-nbr.o
-                0x0000b8c6                uip_ds6_neighbors_init
+                0x0000b8e4       0x12 build/sky/obj/uip-ds6-nbr.o
+                0x0000b8e4                uip_ds6_neighbors_init
  .text.uip_ds6_nbr_add
-                0x0000b8d8       0x3e build/sky/obj/uip-ds6-nbr.o
-                0x0000b8d8                uip_ds6_nbr_add
+                0x0000b8f6       0x3e build/sky/obj/uip-ds6-nbr.o
+                0x0000b8f6                uip_ds6_nbr_add
  .text.uip_ds6_nbr_get_ll
-                0x0000b916        0xc build/sky/obj/uip-ds6-nbr.o
-                0x0000b916                uip_ds6_nbr_get_ll
+                0x0000b934        0xc build/sky/obj/uip-ds6-nbr.o
+                0x0000b934                uip_ds6_nbr_get_ll
  .text.uip_ds6_nbr_head
-                0x0000b922        0xa build/sky/obj/uip-ds6-nbr.o
-                0x0000b922                uip_ds6_nbr_head
+                0x0000b940        0xa build/sky/obj/uip-ds6-nbr.o
+                0x0000b940                uip_ds6_nbr_head
  .text.uip_ds6_nbr_next
-                0x0000b92c        0xc build/sky/obj/uip-ds6-nbr.o
-                0x0000b92c                uip_ds6_nbr_next
+                0x0000b94a        0xc build/sky/obj/uip-ds6-nbr.o
+                0x0000b94a                uip_ds6_nbr_next
  .text.uip_ds6_nbr_lookup
-                0x0000b938       0x3a build/sky/obj/uip-ds6-nbr.o
-                0x0000b938                uip_ds6_nbr_lookup
+                0x0000b956       0x3a build/sky/obj/uip-ds6-nbr.o
+                0x0000b956                uip_ds6_nbr_lookup
  .text.uip_ds6_nbr_ll_lookup
-                0x0000b972        0xc build/sky/obj/uip-ds6-nbr.o
-                0x0000b972                uip_ds6_nbr_ll_lookup
+                0x0000b990        0xc build/sky/obj/uip-ds6-nbr.o
+                0x0000b990                uip_ds6_nbr_ll_lookup
  .text.uip_ds6_nbr_update_ll
-                0x0000b97e       0x76 build/sky/obj/uip-ds6-nbr.o
-                0x0000b97e                uip_ds6_nbr_update_ll
+                0x0000b99c       0x76 build/sky/obj/uip-ds6-nbr.o
+                0x0000b99c                uip_ds6_nbr_update_ll
  .text.uip_ds6_nbr_ipaddr_from_lladdr
-                0x0000b9f4        0x6 build/sky/obj/uip-ds6-nbr.o
-                0x0000b9f4                uip_ds6_nbr_ipaddr_from_lladdr
+                0x0000ba12        0x6 build/sky/obj/uip-ds6-nbr.o
+                0x0000ba12                uip_ds6_nbr_ipaddr_from_lladdr
  .text.uip_ds6_nbr_lladdr_from_ipaddr
-                0x0000b9fa       0x12 build/sky/obj/uip-ds6-nbr.o
-                0x0000b9fa                uip_ds6_nbr_lladdr_from_ipaddr
+                0x0000ba18       0x12 build/sky/obj/uip-ds6-nbr.o
+                0x0000ba18                uip_ds6_nbr_lladdr_from_ipaddr
  .text.uip_ds6_link_callback
-                0x0000ba0c        0x2 build/sky/obj/uip-ds6-nbr.o
-                0x0000ba0c                uip_ds6_link_callback
+                0x0000ba2a        0x2 build/sky/obj/uip-ds6-nbr.o
+                0x0000ba2a                uip_ds6_link_callback
  .text.uip_ds6_route_init
-                0x0000ba0e        0xe build/sky/obj/uip-ds6-route.o
-                0x0000ba0e                uip_ds6_route_init
+                0x0000ba2c        0xe build/sky/obj/uip-ds6-route.o
+                0x0000ba2c                uip_ds6_route_init
  .text.uip_ds6_route_nexthop
-                0x0000ba1c        0x4 build/sky/obj/uip-ds6-route.o
-                0x0000ba1c                uip_ds6_route_nexthop
+                0x0000ba3a        0x4 build/sky/obj/uip-ds6-route.o
+                0x0000ba3a                uip_ds6_route_nexthop
  .text.uip_ds6_route_lookup
-                0x0000ba20        0x4 build/sky/obj/uip-ds6-route.o
-                0x0000ba20                uip_ds6_route_lookup
+                0x0000ba3e        0x4 build/sky/obj/uip-ds6-route.o
+                0x0000ba3e                uip_ds6_route_lookup
  .text.uip_ds6_route_rm
-                0x0000ba24        0x2 build/sky/obj/uip-ds6-route.o
-                0x0000ba24                uip_ds6_route_rm
+                0x0000ba42        0x2 build/sky/obj/uip-ds6-route.o
+                0x0000ba42                uip_ds6_route_rm
  .text.uip_ds6_defrt_rm
-                0x0000ba26       0x2c build/sky/obj/uip-ds6-route.o
-                0x0000ba26                uip_ds6_defrt_rm
+                0x0000ba44       0x2c build/sky/obj/uip-ds6-route.o
+                0x0000ba44                uip_ds6_defrt_rm
  .text.uip_ds6_defrt_lookup
-                0x0000ba52       0x34 build/sky/obj/uip-ds6-route.o
-                0x0000ba52                uip_ds6_defrt_lookup
+                0x0000ba70       0x34 build/sky/obj/uip-ds6-route.o
+                0x0000ba70                uip_ds6_defrt_lookup
  .text.uip_ds6_defrt_add
-                0x0000ba86       0x78 build/sky/obj/uip-ds6-route.o
-                0x0000ba86                uip_ds6_defrt_add
+                0x0000baa4       0x78 build/sky/obj/uip-ds6-route.o
+                0x0000baa4                uip_ds6_defrt_add
  .text.uip_ds6_defrt_choose
-                0x0000bafe       0x2e build/sky/obj/uip-ds6-route.o
-                0x0000bafe                uip_ds6_defrt_choose
+                0x0000bb1c       0x2e build/sky/obj/uip-ds6-route.o
+                0x0000bb1c                uip_ds6_defrt_choose
  .text.uip_ds6_defrt_periodic
-                0x0000bb2c       0x2e build/sky/obj/uip-ds6-route.o
-                0x0000bb2c                uip_ds6_defrt_periodic
+                0x0000bb4a       0x2e build/sky/obj/uip-ds6-route.o
+                0x0000bb4a                uip_ds6_defrt_periodic
  .text.uip_ds6_default_prefix
-                0x0000bb5a        0x6 build/sky/obj/uip-ds6.o
-                0x0000bb5a                uip_ds6_default_prefix
+                0x0000bb78        0x6 build/sky/obj/uip-ds6.o
+                0x0000bb78                uip_ds6_default_prefix
  .text.uip_ds6_list_loop
-                0x0000bb60       0x90 build/sky/obj/uip-ds6.o
-                0x0000bb60                uip_ds6_list_loop
+                0x0000bb7e       0x90 build/sky/obj/uip-ds6.o
+                0x0000bb7e                uip_ds6_list_loop
  .text.uip_ds6_prefix_add
-                0x0000bbf0       0x76 build/sky/obj/uip-ds6.o
-                0x0000bbf0                uip_ds6_prefix_add
+                0x0000bc0e       0x76 build/sky/obj/uip-ds6.o
+                0x0000bc0e                uip_ds6_prefix_add
  .text.uip_ds6_is_addr_onlink
-                0x0000bc66       0x52 build/sky/obj/uip-ds6.o
-                0x0000bc66                uip_ds6_is_addr_onlink
+                0x0000bc84       0x52 build/sky/obj/uip-ds6.o
+                0x0000bc84                uip_ds6_is_addr_onlink
  .text.uip_ds6_addr_lookup
-                0x0000bcb8       0x2a build/sky/obj/uip-ds6.o
-                0x0000bcb8                uip_ds6_addr_lookup
+                0x0000bcd6       0x2a build/sky/obj/uip-ds6.o
+                0x0000bcd6                uip_ds6_addr_lookup
  .text.uip_ds6_get_link_local
-                0x0000bce2       0x3e build/sky/obj/uip-ds6.o
-                0x0000bce2                uip_ds6_get_link_local
+                0x0000bd00       0x3e build/sky/obj/uip-ds6.o
+                0x0000bd00                uip_ds6_get_link_local
  .text.uip_ds6_maddr_add
-                0x0000bd20       0x42 build/sky/obj/uip-ds6.o
-                0x0000bd20                uip_ds6_maddr_add
+                0x0000bd3e       0x42 build/sky/obj/uip-ds6.o
+                0x0000bd3e                uip_ds6_maddr_add
  .text.uip_ds6_addr_add
-                0x0000bd62       0xc6 build/sky/obj/uip-ds6.o
-                0x0000bd62                uip_ds6_addr_add
+                0x0000bd80       0xc6 build/sky/obj/uip-ds6.o
+                0x0000bd80                uip_ds6_addr_add
  .text.uip_ds6_maddr_rm
-                0x0000be28        0xa build/sky/obj/uip-ds6.o
-                0x0000be28                uip_ds6_maddr_rm
+                0x0000be46        0xa build/sky/obj/uip-ds6.o
+                0x0000be46                uip_ds6_maddr_rm
  .text.uip_ds6_maddr_lookup
-                0x0000be32       0x2a build/sky/obj/uip-ds6.o
-                0x0000be32                uip_ds6_maddr_lookup
+                0x0000be50       0x2a build/sky/obj/uip-ds6.o
+                0x0000be50                uip_ds6_maddr_lookup
  .text.uip_ds6_addr_rm
-                0x0000be5c       0x54 build/sky/obj/uip-ds6.o
-                0x0000be5c                uip_ds6_addr_rm
+                0x0000be7a       0x54 build/sky/obj/uip-ds6.o
+                0x0000be7a                uip_ds6_addr_rm
  .text.uip_ds6_periodic
-                0x0000beb0       0x46 build/sky/obj/uip-ds6.o
-                0x0000beb0                uip_ds6_periodic
+                0x0000bece       0x46 build/sky/obj/uip-ds6.o
+                0x0000bece                uip_ds6_periodic
  .text.uip_ds6_set_addr_iid
-                0x0000bef6       0x14 build/sky/obj/uip-ds6.o
-                0x0000bef6                uip_ds6_set_addr_iid
+                0x0000bf14       0x14 build/sky/obj/uip-ds6.o
+                0x0000bf14                uip_ds6_set_addr_iid
  .text.uip_ds6_set_lladdr_from_iid
-                0x0000bf0a       0x14 build/sky/obj/uip-ds6.o
-                0x0000bf0a                uip_ds6_set_lladdr_from_iid
+                0x0000bf28       0x14 build/sky/obj/uip-ds6.o
+                0x0000bf28                uip_ds6_set_lladdr_from_iid
  .text.get_match_length
-                0x0000bf1e       0x44 build/sky/obj/uip-ds6.o
-                0x0000bf1e                get_match_length
+                0x0000bf3c       0x44 build/sky/obj/uip-ds6.o
+                0x0000bf3c                get_match_length
  .text.uip_ds6_select_src
-                0x0000bf62       0xa6 build/sky/obj/uip-ds6.o
-                0x0000bf62                uip_ds6_select_src
+                0x0000bf80       0xa6 build/sky/obj/uip-ds6.o
+                0x0000bf80                uip_ds6_select_src
  .text.uip_ds6_compute_reachable_time
-                0x0000c008       0x3e build/sky/obj/uip-ds6.o
-                0x0000c008                uip_ds6_compute_reachable_time
+                0x0000c026       0x3e build/sky/obj/uip-ds6.o
+                0x0000c026                uip_ds6_compute_reachable_time
  .text.uip_ds6_init
-                0x0000c046      0x164 build/sky/obj/uip-ds6.o
-                0x0000c046                uip_ds6_init
+                0x0000c064      0x164 build/sky/obj/uip-ds6.o
+                0x0000c064                uip_ds6_init
  .text.echo_reply_input
-                0x0000c1aa       0x5e build/sky/obj/uip-icmp6.o
+                0x0000c1c8       0x5e build/sky/obj/uip-icmp6.o
  .text.echo_request_input
-                0x0000c208       0x86 build/sky/obj/uip-icmp6.o
+                0x0000c226       0x86 build/sky/obj/uip-icmp6.o
  .text.uip_icmp6_input
-                0x0000c28e       0x34 build/sky/obj/uip-icmp6.o
-                0x0000c28e                uip_icmp6_input
+                0x0000c2ac       0x34 build/sky/obj/uip-icmp6.o
+                0x0000c2ac                uip_icmp6_input
  .text.uip_icmp6_register_input_handler
-                0x0000c2c2        0xc build/sky/obj/uip-icmp6.o
-                0x0000c2c2                uip_icmp6_register_input_handler
+                0x0000c2e0        0xc build/sky/obj/uip-icmp6.o
+                0x0000c2e0                uip_icmp6_register_input_handler
  .text.uip_icmp6_error_output
-                0x0000c2ce      0x146 build/sky/obj/uip-icmp6.o
-                0x0000c2ce                uip_icmp6_error_output
+                0x0000c2ec      0x146 build/sky/obj/uip-icmp6.o
+                0x0000c2ec                uip_icmp6_error_output
  .text.uip_icmp6_send
-                0x0000c414       0x8e build/sky/obj/uip-icmp6.o
-                0x0000c414                uip_icmp6_send
+                0x0000c432       0x8e build/sky/obj/uip-icmp6.o
+                0x0000c432                uip_icmp6_send
  .text.uip_icmp6_init
-                0x0000c4a2       0x12 build/sky/obj/uip-icmp6.o
-                0x0000c4a2                uip_icmp6_init
+                0x0000c4c0       0x12 build/sky/obj/uip-icmp6.o
+                0x0000c4c0                uip_icmp6_init
  .text.ns_input
-                0x0000c4b4      0x2a8 build/sky/obj/uip-nd6.o
+                0x0000c4d2      0x2a8 build/sky/obj/uip-nd6.o
  .text.uip_nd6_init
-                0x0000c75c        0xa build/sky/obj/uip-nd6.o
-                0x0000c75c                uip_nd6_init
+                0x0000c77a        0xa build/sky/obj/uip-nd6.o
+                0x0000c77a                uip_nd6_init
  .text.node_matches_address.part.0
-                0x0000c766       0x2e build/sky/obj/uip-sr.o
+                0x0000c784       0x2e build/sky/obj/uip-sr.o
  .text.uip_sr_get_node
-                0x0000c794       0x3a build/sky/obj/uip-sr.o
-                0x0000c794                uip_sr_get_node
+                0x0000c7b2       0x3a build/sky/obj/uip-sr.o
+                0x0000c7b2                uip_sr_get_node
  .text.uip_sr_is_addr_reachable
-                0x0000c7ce       0x4e build/sky/obj/uip-sr.o
-                0x0000c7ce                uip_sr_is_addr_reachable
+                0x0000c7ec       0x4e build/sky/obj/uip-sr.o
+                0x0000c7ec                uip_sr_is_addr_reachable
  .text.uip_sr_expire_parent
-                0x0000c81c       0x50 build/sky/obj/uip-sr.o
-                0x0000c81c                uip_sr_expire_parent
+                0x0000c83a       0x50 build/sky/obj/uip-sr.o
+                0x0000c83a                uip_sr_expire_parent
  .text.uip_sr_update_node
-                0x0000c86c       0xbc build/sky/obj/uip-sr.o
-                0x0000c86c                uip_sr_update_node
+                0x0000c88a       0xbc build/sky/obj/uip-sr.o
+                0x0000c88a                uip_sr_update_node
  .text.uip_sr_init
-                0x0000c928       0x12 build/sky/obj/uip-sr.o
-                0x0000c928                uip_sr_init
+                0x0000c946       0x12 build/sky/obj/uip-sr.o
+                0x0000c946                uip_sr_init
  .text.uip_sr_periodic
-                0x0000c93a       0x8c build/sky/obj/uip-sr.o
-                0x0000c93a                uip_sr_periodic
+                0x0000c958       0x8c build/sky/obj/uip-sr.o
+                0x0000c958                uip_sr_periodic
  .text.uip_sr_free_all
-                0x0000c9c6       0x30 build/sky/obj/uip-sr.o
-                0x0000c9c6                uip_sr_free_all
- .text.chksum   0x0000c9f6       0x32 build/sky/obj/uip6.o
+                0x0000c9e4       0x30 build/sky/obj/uip-sr.o
+                0x0000c9e4                uip_sr_free_all
+ .text.chksum   0x0000ca14       0x32 build/sky/obj/uip6.o
  .text.upper_layer_chksum
-                0x0000ca28       0x58 build/sky/obj/uip6.o
+                0x0000ca46       0x58 build/sky/obj/uip6.o
  .text.ext_hdr_options_process
-                0x0000ca80       0xa4 build/sky/obj/uip6.o
+                0x0000ca9e       0xa4 build/sky/obj/uip6.o
  .text.uip_check_mtu
-                0x0000cb24       0x1e build/sky/obj/uip6.o
+                0x0000cb42       0x1e build/sky/obj/uip6.o
  .text.uip_update_ttl
-                0x0000cb42       0x24 build/sky/obj/uip6.o
+                0x0000cb60       0x24 build/sky/obj/uip6.o
  .text.uip_icmp6chksum
-                0x0000cb66        0xa build/sky/obj/uip6.o
-                0x0000cb66                uip_icmp6chksum
+                0x0000cb84        0xa build/sky/obj/uip6.o
+                0x0000cb84                uip_icmp6chksum
  .text.uip_udpchksum
-                0x0000cb70        0xa build/sky/obj/uip6.o
-                0x0000cb70                uip_udpchksum
+                0x0000cb8e        0xa build/sky/obj/uip6.o
+                0x0000cb8e                uip_udpchksum
  .text.uip_init
-                0x0000cb7a       0x3c build/sky/obj/uip6.o
-                0x0000cb7a                uip_init
+                0x0000cb98       0x3c build/sky/obj/uip6.o
+                0x0000cb98                uip_init
  .text.uip_remove_ext_hdr
-                0x0000cbb6       0x5e build/sky/obj/uip6.o
-                0x0000cbb6                uip_remove_ext_hdr
+                0x0000cbd4       0x5e build/sky/obj/uip6.o
+                0x0000cbd4                uip_remove_ext_hdr
  .text.uip_process
-                0x0000cc14      0x568 build/sky/obj/uip6.o
-                0x0000cc14                uip_process
+                0x0000cc32      0x568 build/sky/obj/uip6.o
+                0x0000cc32                uip_process
  .text.uip_htonl
-                0x0000d17c       0x2e build/sky/obj/uip6.o
-                0x0000d17c                uip_htonl
+                0x0000d19a       0x2e build/sky/obj/uip6.o
+                0x0000d19a                uip_htonl
  .text.uipbuf_add_ext_hdr
-                0x0000d1aa       0x1c build/sky/obj/uipbuf.o
-                0x0000d1aa                uipbuf_add_ext_hdr
+                0x0000d1c8       0x1c build/sky/obj/uipbuf.o
+                0x0000d1c8                uipbuf_add_ext_hdr
  .text.uipbuf_set_len
-                0x0000d1c6       0x12 build/sky/obj/uipbuf.o
-                0x0000d1c6                uipbuf_set_len
+                0x0000d1e4       0x12 build/sky/obj/uipbuf.o
+                0x0000d1e4                uipbuf_set_len
  .text.uipbuf_set_len_field
-                0x0000d1d8        0xe build/sky/obj/uipbuf.o
-                0x0000d1d8                uipbuf_set_len_field
+                0x0000d1f6        0xe build/sky/obj/uipbuf.o
+                0x0000d1f6                uipbuf_set_len_field
  .text.uipbuf_get_len_field
-                0x0000d1e6        0xe build/sky/obj/uipbuf.o
-                0x0000d1e6                uipbuf_get_len_field
+                0x0000d204        0xe build/sky/obj/uipbuf.o
+                0x0000d204                uipbuf_get_len_field
  .text.uipbuf_get_next_header
-                0x0000d1f4       0x6a build/sky/obj/uipbuf.o
-                0x0000d1f4                uipbuf_get_next_header
+                0x0000d212       0x6a build/sky/obj/uipbuf.o
+                0x0000d212                uipbuf_get_next_header
  .text.uipbuf_get_last_header
-                0x0000d25e       0x3e build/sky/obj/uipbuf.o
-                0x0000d25e                uipbuf_get_last_header
+                0x0000d27c       0x3e build/sky/obj/uipbuf.o
+                0x0000d27c                uipbuf_get_last_header
  .text.uipbuf_search_header
-                0x0000d29c       0x4e build/sky/obj/uipbuf.o
-                0x0000d29c                uipbuf_search_header
+                0x0000d2ba       0x4e build/sky/obj/uipbuf.o
+                0x0000d2ba                uipbuf_search_header
  .text.uipbuf_get_attr
-                0x0000d2ea       0x12 build/sky/obj/uipbuf.o
-                0x0000d2ea                uipbuf_get_attr
+                0x0000d308       0x12 build/sky/obj/uipbuf.o
+                0x0000d308                uipbuf_get_attr
  .text.uipbuf_set_attr
-                0x0000d2fc       0x14 build/sky/obj/uipbuf.o
-                0x0000d2fc                uipbuf_set_attr
+                0x0000d31a       0x14 build/sky/obj/uipbuf.o
+                0x0000d31a                uipbuf_set_attr
  .text.uipbuf_clear_attr
-                0x0000d310       0x12 build/sky/obj/uipbuf.o
-                0x0000d310                uipbuf_clear_attr
+                0x0000d32e       0x12 build/sky/obj/uipbuf.o
+                0x0000d32e                uipbuf_clear_attr
  .text.uipbuf_clear
-                0x0000d322       0x12 build/sky/obj/uipbuf.o
-                0x0000d322                uipbuf_clear
+                0x0000d340       0x12 build/sky/obj/uipbuf.o
+                0x0000d340                uipbuf_clear
  .text.uipbuf_init
-                0x0000d334       0x1a build/sky/obj/uipbuf.o
-                0x0000d334                uipbuf_init
+                0x0000d352       0x1a build/sky/obj/uipbuf.o
+                0x0000d352                uipbuf_init
  .text.uiplib_ipaddr_snprint
-                0x0000d34e      0x12c build/sky/obj/uiplib.o
-                0x0000d34e                uiplib_ipaddr_snprint
+                0x0000d36c      0x12c build/sky/obj/uiplib.o
+                0x0000d36c                uiplib_ipaddr_snprint
  .text.watchdog_interrupt
-                0x0000d47a        0x6 build/sky/obj/watchdog.o
-                0x0000d47a                __isr_10
-                0x0000d47a                watchdog_interrupt
+                0x0000d498        0x6 build/sky/obj/watchdog.o
+                0x0000d498                __isr_10
+                0x0000d498                watchdog_interrupt
  .text.watchdog_start
-                0x0000d480       0x14 build/sky/obj/watchdog.o
-                0x0000d480                watchdog_start
+                0x0000d49e       0x14 build/sky/obj/watchdog.o
+                0x0000d49e                watchdog_start
  .text.watchdog_periodic
-                0x0000d494       0x12 build/sky/obj/watchdog.o
-                0x0000d494                watchdog_periodic
+                0x0000d4b2       0x12 build/sky/obj/watchdog.o
+                0x0000d4b2                watchdog_periodic
  .text.watchdog_stop
-                0x0000d4a6       0x16 build/sky/obj/watchdog.o
-                0x0000d4a6                watchdog_stop
+                0x0000d4c4       0x16 build/sky/obj/watchdog.o
+                0x0000d4c4                watchdog_stop
  .text.watchdog_init
-                0x0000d4bc       0x12 build/sky/obj/watchdog.o
-                0x0000d4bc                watchdog_init
+                0x0000d4da       0x12 build/sky/obj/watchdog.o
+                0x0000d4da                watchdog_init
  .text.xmem_init
-                0x0000d4ce       0x3c build/sky/obj/xmem.o
-                0x0000d4ce                xmem_init
- .text.printf   0x0000d50a       0x10 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(printf.o)
-                0x0000d50a                printf
- .text.append   0x0000d51a       0x22 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(sprintf.o)
+                0x0000d4ec       0x3c build/sky/obj/xmem.o
+                0x0000d4ec                xmem_init
+ .text.printf   0x0000d528       0x10 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(printf.o)
+                0x0000d528                printf
+ .text.append   0x0000d538       0x22 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(sprintf.o)
  .text.call_vuprintf
-                0x0000d53c       0x3a /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(sprintf.o)
+                0x0000d55a       0x3a /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(sprintf.o)
  .text.snprintf
-                0x0000d576       0x1a /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(sprintf.o)
-                0x0000d576                snprintf
+                0x0000d594       0x1a /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(sprintf.o)
+                0x0000d594                snprintf
  .text.print_field
-                0x0000d590      0x194 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
+                0x0000d5ae      0x194 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
  .text.vuprintf
-                0x0000d724      0x63e /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
-                0x0000d724                vuprintf
- .text.puts     0x0000dd62       0x2c /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(puts.o)
-                0x0000dd62                puts
- .text.rand     0x0000dd8e       0x26 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(rand.o)
-                0x0000dd8e                rand
- .text.srand    0x0000ddb4        0xa /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(rand.o)
-                0x0000ddb4                srand
- .text.memcmp   0x0000ddbe       0x30 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memcmp.o)
-                0x0000ddbe                memcmp
- .text.memcpy   0x0000ddee       0xfa /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memcpy.o)
-                0x0000ddee                memcpy
- .text.memmove  0x0000dee8       0xfa /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memmove.o)
-                0x0000dee8                memmove
- .text.memset   0x0000dfe2       0x6a /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memset.o)
-                0x0000dfe2                memset
- .text.crt0     0x0000e04c        0x2 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a(_unexpected_.o)
-                0x0000e04c                _unexpected_
- .text.libgcc   0x0000e04e       0x2c /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_mulsi3.o)
-                0x0000e04e                __mulsi3
- .text.libgcc   0x0000e07a       0x22 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_udivmod16.o)
-                0x0000e07a                __udivhi3
-                0x0000e07a                __ext_udivmod16
-                0x0000e094                __umodhi3
- .text.libgcc   0x0000e09c       0x3a /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_divmod16.o)
-                0x0000e09c                __ext_divmod16
-                0x0000e09c                __divhi3
-                0x0000e0ce                __modhi3
- .text.libgcc   0x0000e0d6       0x40 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_udivmod32.o)
-                0x0000e0d6                __udivsi3
-                0x0000e0d6                __ext_udivmod32
-                0x0000e10c                __umodsi3
- .text.libgcc   0x0000e116       0x4c /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_divmod32.o)
-                0x0000e116                __ext_divmod32
-                0x0000e116                __divsi3
-                0x0000e158                __modsi3
- .text.libgcc   0x0000e162       0xf0 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_udivmod64.o)
-                0x0000e162                __xabi_udivmod64
-                0x0000e1c0                __udivdi3
-                0x0000e1e6                __umoddi3
-                0x0000e214                __udivmoddi4
+                0x0000d742      0x63e /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
+                0x0000d742                vuprintf
+ .text.puts     0x0000dd80       0x2c /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(puts.o)
+                0x0000dd80                puts
+ .text.rand     0x0000ddac       0x26 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(rand.o)
+                0x0000ddac                rand
+ .text.srand    0x0000ddd2        0xa /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(rand.o)
+                0x0000ddd2                srand
+ .text.memcmp   0x0000dddc       0x30 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memcmp.o)
+                0x0000dddc                memcmp
+ .text.memcpy   0x0000de0c       0xfa /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memcpy.o)
+                0x0000de0c                memcpy
+ .text.memmove  0x0000df06       0xfa /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memmove.o)
+                0x0000df06                memmove
+ .text.memset   0x0000e000       0x6a /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memset.o)
+                0x0000e000                memset
+ .text.crt0     0x0000e06a        0x2 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a(_unexpected_.o)
+                0x0000e06a                _unexpected_
+ .text.libgcc   0x0000e06c       0x2c /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_mulsi3.o)
+                0x0000e06c                __mulsi3
+ .text.libgcc   0x0000e098       0x22 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_udivmod16.o)
+                0x0000e098                __udivhi3
+                0x0000e098                __ext_udivmod16
+                0x0000e0b2                __umodhi3
+ .text.libgcc   0x0000e0ba       0x3a /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_divmod16.o)
+                0x0000e0ba                __ext_divmod16
+                0x0000e0ba                __divhi3
+                0x0000e0ec                __modhi3
+ .text.libgcc   0x0000e0f4       0x40 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_udivmod32.o)
+                0x0000e0f4                __udivsi3
+                0x0000e0f4                __ext_udivmod32
+                0x0000e12a                __umodsi3
+ .text.libgcc   0x0000e134       0x4c /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_divmod32.o)
+                0x0000e134                __ext_divmod32
+                0x0000e134                __divsi3
+                0x0000e176                __modsi3
+ .text.libgcc   0x0000e180       0xf0 /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libgcc.a(_udivmod64.o)
+                0x0000e180                __xabi_udivmod64
+                0x0000e1de                __udivdi3
+                0x0000e204                __umoddi3
+                0x0000e232                __udivmoddi4
  *(SORT(.near.text) SORT(.near.text.*))
 
-.rodata         0x0000e254      0x4b4
-                0x0000e254                . = ALIGN (0x2)
+.rodata         0x0000e270      0x52c
+                0x0000e270                . = ALIGN (0x2)
  *(SORT(.rodata) SORT(.rodata.*) SORT(.gnu.linkonce.r.*))
  .rodata.get_value
-                0x0000e254       0x34 build/sky/obj/cc2420.o
+                0x0000e270       0x34 build/sky/obj/cc2420.o
  .rodata.set_value
-                0x0000e288       0x10 build/sky/obj/cc2420.o
- .rodata        0x0000e298       0x10 build/sky/obj/button-sensor.o
-                0x0000e2a0                button_sensor
- .rodata        0x0000e2a8       0x3e build/sky/obj/cc2420.o
-                0x0000e2a8                cc2420_aes_128_driver
-                0x0000e2ac                cc2420_driver
- .rodata        0x0000e2e6       0x14 build/sky/obj/csma.o
-                0x0000e2ec                csma_driver
- .rodata        0x0000e2fa        0x6 build/sky/obj/framer-802154.o
-                0x0000e2fa                framer_802154
- .rodata        0x0000e300        0x8 build/sky/obj/linkaddr.o
-                0x0000e300                linkaddr_null
- .rodata        0x0000e308       0xca build/sky/obj/log.o
- .rodata        0x0000e3d2       0x3c build/sky/obj/memory_operations.o
-                0x0000e3f0                autostart_processes
- .rodata        0x0000e40e       0xe0 build/sky/obj/rpl-dag.o
- .rodata        0x0000e4ee       0x34 build/sky/obj/rpl.o
-                0x0000e4f8                rpl_lite_driver
- .rodata        0x0000e522       0x26 build/sky/obj/sicslowpan.o
-                0x0000e52e                sicslowpan_driver
-                0x0000e536                llprefix
-                0x0000e538                unc_mxconf
-                0x0000e53c                unc_ctxconf
-                0x0000e540                unc_llconf
- .rodata        0x0000e548       0xdf build/sky/obj/contiki-main.o
- .rodata        0x0000e627        0xf build/sky/obj/ctimer.o
- .rodata        0x0000e636        0xc build/sky/obj/etimer.o
- .rodata        0x0000e642        0x2 build/sky/obj/frame802154.o
- .rodata        0x0000e644       0x31 build/sky/obj/platform.o
- .rodata        0x0000e675        0xc build/sky/obj/rpl-timers.o
- .rodata        0x0000e681        0x8 build/sky/obj/sensors.o
- .rodata        0x0000e689       0x3e build/sky/obj/stack-check.o
- .rodata        0x0000e6c7        0xd build/sky/obj/tcpip.o
- .rodata        0x0000e6d4       0x2d build/sky/obj/uiplib.o
+                0x0000e2a4       0x10 build/sky/obj/cc2420.o
+ .rodata        0x0000e2b4       0x10 build/sky/obj/button-sensor.o
+                0x0000e2bc                button_sensor
+ .rodata        0x0000e2c4       0x3e build/sky/obj/cc2420.o
+                0x0000e2c4                cc2420_aes_128_driver
+                0x0000e2c8                cc2420_driver
+ .rodata        0x0000e302       0x14 build/sky/obj/csma.o
+                0x0000e308                csma_driver
+ .rodata        0x0000e316        0x6 build/sky/obj/framer-802154.o
+                0x0000e316                framer_802154
+ .rodata        0x0000e31c        0x8 build/sky/obj/linkaddr.o
+                0x0000e31c                linkaddr_null
+ .rodata        0x0000e324       0xca build/sky/obj/log.o
+ .rodata        0x0000e3ee       0xb4 build/sky/obj/memory_operations.o
+                0x0000e484                autostart_processes
+ .rodata        0x0000e4a2       0xe0 build/sky/obj/rpl-dag.o
+ .rodata        0x0000e582       0x34 build/sky/obj/rpl.o
+                0x0000e58c                rpl_lite_driver
+ .rodata        0x0000e5b6       0x26 build/sky/obj/sicslowpan.o
+                0x0000e5c2                sicslowpan_driver
+                0x0000e5ca                llprefix
+                0x0000e5cc                unc_mxconf
+                0x0000e5d0                unc_ctxconf
+                0x0000e5d4                unc_llconf
+ .rodata        0x0000e5dc       0xdf build/sky/obj/contiki-main.o
+ .rodata        0x0000e6bb        0xf build/sky/obj/ctimer.o
+ .rodata        0x0000e6ca        0xc build/sky/obj/etimer.o
+ .rodata        0x0000e6d6        0x2 build/sky/obj/frame802154.o
+ .rodata        0x0000e6d8       0x31 build/sky/obj/platform.o
+ .rodata        0x0000e709        0xc build/sky/obj/rpl-timers.o
+ .rodata        0x0000e715        0x8 build/sky/obj/sensors.o
+ .rodata        0x0000e71d       0x3e build/sky/obj/stack-check.o
+ .rodata        0x0000e75b        0xd build/sky/obj/tcpip.o
+ .rodata        0x0000e768       0x2d build/sky/obj/uiplib.o
  .rodata.vuprintf
-                0x0000e701        0x7 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
+                0x0000e795        0x7 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
  *(SORT(.near.rodata) SORT(.near.rodata.*))
-                0x0000e708                . = ALIGN (0x2)
-                0x0000e708                _etext = .
+                0x0000e79c                . = ALIGN (0x2)
+                0x0000e79c                _etext = .
 
-.data           0x00001100      0x14e load address 0x0000e708
+.data           0x00001100      0x14e load address 0x0000e79c
                 0x00001100                . = ALIGN (0x2)
                 0x00001100                __data_start = .
  *(SORT(.data) SORT(.data.*) SORT(.gnu.linkonce.d.*))
@@ -3141,10 +3141,10 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
  *(SORT(.near.data) SORT(.near.data.*))
                 0x0000124e                . = ALIGN (0x2)
                 0x0000124e                _edata = .
-                0x0000e708                __data_load_start = LOADADDR (.data)
+                0x0000e79c                __data_load_start = LOADADDR (.data)
                 0x0000014e                __data_size = SIZEOF (.data)
 
-.bss            0x0000124e     0x1a3c load address 0x0000e856
+.bss            0x0000124e     0x1a3c load address 0x0000e8ea
                 0x0000124e                __bss_start = .
  *(SORT(.bss) SORT(.bss.*))
  .bss           0x0000124e        0x8 build/sky/obj/button-sensor.o
@@ -3260,7 +3260,7 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
                 0x00002c8a                __bss_end = .
                 0x00001a3c                __bss_size = SIZEOF (.bss)
 
-.noinit         0x00002c8a        0x2 load address 0x0000e856
+.noinit         0x00002c8a        0x2 load address 0x0000e8ea
                 0x00002c8a                . = ALIGN (0x2)
                 0x00002c8a                __noinit_start = .
  *(SORT(.noinit) SORT(.noinit.*))
@@ -3665,6 +3665,6 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
  .debug_ranges  0x00000074        0x8 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memmove.o)
  .debug_ranges  0x0000007c        0x8 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memset.o)
                 0x00003900                PROVIDE (__stack, (ORIGIN (ram) + 0x2800))
-                0x0000e708                __data_start_rom = _etext
-                0x0000e856                __data_end_rom = (_etext + SIZEOF (.data))
+                0x0000e79c                __data_start_rom = _etext
+                0x0000e8ea                __data_end_rom = (_etext + SIZEOF (.data))
 OUTPUT(build/sky/memory_operations.sky elf32-msp430)

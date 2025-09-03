@@ -2000,7 +2000,7 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
  .text.clock_seconds
                 0x00005000       0x1a build/sky/obj/clock.o
                 0x00005000                clock_seconds
- .text.process_thread_hello_world_process
+ .text.process_thread_counter_process
                 0x0000501a       0x5e build/sky/obj/counter.o
  .text.schedule_transmission
                 0x00005078       0x74 build/sky/obj/csma-output.o
@@ -3050,7 +3050,7 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
                 0x0000e184                __udivmoddi4
  *(SORT(.near.text) SORT(.near.text.*))
 
-.rodata         0x0000e1c4      0x49e
+.rodata         0x0000e1c4      0x49a
                 0x0000e1c4                . = ALIGN (0x2)
  *(SORT(.rodata) SORT(.rodata.*) SORT(.gnu.linkonce.r.*))
  .rodata.get_value
@@ -3062,48 +3062,48 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
  .rodata        0x0000e218       0x3e build/sky/obj/cc2420.o
                 0x0000e218                cc2420_aes_128_driver
                 0x0000e21c                cc2420_driver
- .rodata        0x0000e256       0x26 build/sky/obj/counter.o
+ .rodata        0x0000e256       0x22 build/sky/obj/counter.o
                 0x0000e264                autostart_processes
- .rodata        0x0000e27c       0x14 build/sky/obj/csma.o
-                0x0000e282                csma_driver
- .rodata        0x0000e290        0x6 build/sky/obj/framer-802154.o
-                0x0000e290                framer_802154
- .rodata        0x0000e296        0x8 build/sky/obj/linkaddr.o
-                0x0000e296                linkaddr_null
- .rodata        0x0000e29e       0xca build/sky/obj/log.o
- .rodata        0x0000e368       0xe0 build/sky/obj/rpl-dag.o
- .rodata        0x0000e448       0x34 build/sky/obj/rpl.o
-                0x0000e452                rpl_lite_driver
- .rodata        0x0000e47c       0x26 build/sky/obj/sicslowpan.o
-                0x0000e488                sicslowpan_driver
-                0x0000e490                llprefix
-                0x0000e492                unc_mxconf
-                0x0000e496                unc_ctxconf
-                0x0000e49a                unc_llconf
- .rodata        0x0000e4a2       0xdf build/sky/obj/contiki-main.o
- .rodata        0x0000e581        0xf build/sky/obj/ctimer.o
- .rodata        0x0000e590        0xc build/sky/obj/etimer.o
- .rodata        0x0000e59c        0x2 build/sky/obj/frame802154.o
- .rodata        0x0000e59e       0x31 build/sky/obj/platform.o
- .rodata        0x0000e5cf        0xc build/sky/obj/rpl-timers.o
- .rodata        0x0000e5db        0x8 build/sky/obj/sensors.o
- .rodata        0x0000e5e3       0x3e build/sky/obj/stack-check.o
- .rodata        0x0000e621        0xd build/sky/obj/tcpip.o
- .rodata        0x0000e62e       0x2d build/sky/obj/uiplib.o
+ .rodata        0x0000e278       0x14 build/sky/obj/csma.o
+                0x0000e27e                csma_driver
+ .rodata        0x0000e28c        0x6 build/sky/obj/framer-802154.o
+                0x0000e28c                framer_802154
+ .rodata        0x0000e292        0x8 build/sky/obj/linkaddr.o
+                0x0000e292                linkaddr_null
+ .rodata        0x0000e29a       0xca build/sky/obj/log.o
+ .rodata        0x0000e364       0xe0 build/sky/obj/rpl-dag.o
+ .rodata        0x0000e444       0x34 build/sky/obj/rpl.o
+                0x0000e44e                rpl_lite_driver
+ .rodata        0x0000e478       0x26 build/sky/obj/sicslowpan.o
+                0x0000e484                sicslowpan_driver
+                0x0000e48c                llprefix
+                0x0000e48e                unc_mxconf
+                0x0000e492                unc_ctxconf
+                0x0000e496                unc_llconf
+ .rodata        0x0000e49e       0xdf build/sky/obj/contiki-main.o
+ .rodata        0x0000e57d        0xf build/sky/obj/ctimer.o
+ .rodata        0x0000e58c        0xc build/sky/obj/etimer.o
+ .rodata        0x0000e598        0x2 build/sky/obj/frame802154.o
+ .rodata        0x0000e59a       0x31 build/sky/obj/platform.o
+ .rodata        0x0000e5cb        0xc build/sky/obj/rpl-timers.o
+ .rodata        0x0000e5d7        0x8 build/sky/obj/sensors.o
+ .rodata        0x0000e5df       0x3e build/sky/obj/stack-check.o
+ .rodata        0x0000e61d        0xd build/sky/obj/tcpip.o
+ .rodata        0x0000e62a       0x2d build/sky/obj/uiplib.o
  .rodata.vuprintf
-                0x0000e65b        0x7 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
+                0x0000e657        0x7 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(vuprintf.o)
  *(SORT(.near.rodata) SORT(.near.rodata.*))
-                0x0000e662                . = ALIGN (0x2)
-                0x0000e662                _etext = .
+                0x0000e65e                . = ALIGN (0x2)
+                0x0000e65e                _etext = .
 
-.data           0x00001100      0x146 load address 0x0000e662
+.data           0x00001100      0x146 load address 0x0000e65e
                 0x00001100                . = ALIGN (0x2)
                 0x00001100                __data_start = .
  *(SORT(.data) SORT(.data.*) SORT(.gnu.linkonce.d.*))
  .data          0x00001100        0xc build/sky/obj/cc2420.o
                 0x00001100                cc2420_process
  .data          0x0000110c        0xa build/sky/obj/counter.o
-                0x0000110c                hello_world_process
+                0x0000110c                counter_process
  .data          0x00001116       0x18 build/sky/obj/csma-output.o
  .data          0x0000112e        0xa build/sky/obj/ctimer.o
                 0x0000112e                ctimer_process
@@ -3139,10 +3139,10 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
  *(SORT(.near.data) SORT(.near.data.*))
                 0x00001246                . = ALIGN (0x2)
                 0x00001246                _edata = .
-                0x0000e662                __data_load_start = LOADADDR (.data)
+                0x0000e65e                __data_load_start = LOADADDR (.data)
                 0x00000146                __data_size = SIZEOF (.data)
 
-.bss            0x00001246     0x1a3a load address 0x0000e7a8
+.bss            0x00001246     0x1a3a load address 0x0000e7a4
                 0x00001246                __bss_start = .
  *(SORT(.bss) SORT(.bss.*))
  .bss           0x00001246        0x8 build/sky/obj/button-sensor.o
@@ -3258,7 +3258,7 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
                 0x00002c80                __bss_end = .
                 0x00001a3a                __bss_size = SIZEOF (.bss)
 
-.noinit         0x00002c80        0x2 load address 0x0000e7a8
+.noinit         0x00002c80        0x2 load address 0x0000e7a4
                 0x00002c80                . = ALIGN (0x2)
                 0x00002c80                __noinit_start = .
  *(SORT(.noinit) SORT(.noinit.*))
@@ -3663,6 +3663,6 @@ LOAD /usr/local/bin/../lib/gcc/msp430/4.7.2/mmpy-16/libcrt0.a
  .debug_ranges  0x00000074        0x8 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memmove.o)
  .debug_ranges  0x0000007c        0x8 /usr/local/bin/../lib/gcc/msp430/4.7.2/../../../../msp430/lib/mmpy-16/libc.a(memset.o)
                 0x00003900                PROVIDE (__stack, (ORIGIN (ram) + 0x2800))
-                0x0000e662                __data_start_rom = _etext
-                0x0000e7a8                __data_end_rom = (_etext + SIZEOF (.data))
+                0x0000e65e                __data_start_rom = _etext
+                0x0000e7a4                __data_end_rom = (_etext + SIZEOF (.data))
 OUTPUT(build/sky/counter.sky elf32-msp430)

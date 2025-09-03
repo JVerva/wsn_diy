@@ -1,4 +1,4 @@
-
+#include "contiki.h"
 #include "sys/energest.h"
 #include <stdio.h> /* For printf() */
 /*---------------------------------------------------------------------------*/

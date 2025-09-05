@@ -8,7 +8,8 @@ build/sky/obj/memory_operations.o: memory_operations.c ../../os/contiki.h \
  ../../os/sys/ctimer.h ../../os/sys/etimer.h ../../os/sys/etimer.h \
  ../../os/sys/rtimer.h ../../os/dev/watchdog.h \
  ../../arch/cpu/msp430/./rtimer-arch.h ../../os/sys/rtimer.h \
- ../../os/sys/pt.h ../../os/sys/clock.h ../../os/lib/memb.h
+ ../../os/sys/pt.h ../../os/sys/clock.h ../../os/lib/memb.h \
+ ../../os/storage/cfs/cfs.h
 
 ../../os/contiki.h:
 
@@ -59,3 +60,5 @@ build/sky/obj/memory_operations.o: memory_operations.c ../../os/contiki.h \
 ../../os/sys/clock.h:
 
 ../../os/lib/memb.h:
+
+../../os/storage/cfs/cfs.h:

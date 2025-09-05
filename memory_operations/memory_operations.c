@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <string.h>
 #include "contiki.h"
 #include "lib/memb.h"
+#include "os/storage/cfs/cfs.h"
 
 /*---------------------------------------------------------------------------*/
 PROCESS(memory_operations_process, "memory_operations process");
@@ -65,7 +67,29 @@ PROCESS_THREAD(memory_operations_process, ev, data) {
     print_int2_memb_contents();
 
     //file system operations
-    
+    //create file, read and write buffers
+    printf("Creating file my_first_file.txt\n");
+    int fd = cfs_open("my_first_file.txt", CFS_WRITE + CFS_READ);
+    char buf[50];
+    char text[20] = "Hello, World!\n";
+    //write to file
+    printf("Writing to file\n");
+    cfs_write(fd, text, strlen(text));
+    //print file contents
+    cfs_seek(fd, 0, CFS_SEEK_SET);
+    cfs_read(fd, buf, sizeof(text));
+    printf("File contents: %s\n", buf);
+    //append to file
+    printf("Appending to file\n");
+    memset(buf, 0, sizeof(buf));
+    strcpy(text,"whoops. somethings wrong\n");
+    cfs_write(fd, text, strlen(text));
+    //print file contents
+    cfs_seek(fd, 0, CFS_SEEK_SET);
+    cfs_read(fd, buf, sizeof(buf)-1);
+    printf("File contents: %s\n", buf);
+    //close file
+    cfs_close(fd);
 
     PROCESS_END();
 }

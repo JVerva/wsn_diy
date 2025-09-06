@@ -23,7 +23,7 @@ PROCESS_THREAD(fixed_point_arithmetic_process, ev, data) {
     for (uint16_t i=0; i<256; i++) {
         uint16_t i_fp = i << 4; //i in Q12.4
         c[i]=((a+i_fp)*b) >> 4; //(a+i)*b in Q24.8, convert to Q12.4
-        printf("%hu\n%hu\n%hu\n%hu\n", a, b, i_fp, c[i]);
+        printf("%hu\n", c[i]);
     }
 
     PROCESS_END();
